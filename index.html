@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Victor Reyes – PhD researcher in Computer Science</title>
+  <meta name="description" content="Victor Reyes, PhD researcher in Computer Science at the University of Geneva. Geometric and probabilistic foundations of high-dimensional data analysis.">
+  <style>
+    :root {
+      --paper: #edf1f5; --card: #ffffff; --ink: #1b2a41; --muted: #52627a; --line: #d3dbe5;
+      --orange: #ff8c2b; --purple: #b980ff; --orange-text: #b34700; --purple-text: #7a3fd1;
+      --serif: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+      --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); line-height: 1.6; }
+    a { color: var(--ink); text-underline-offset: 3px; }
+    a:hover { color: var(--orange-text); }
+    a:focus-visible { outline: 3px solid var(--purple); outline-offset: 3px; }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 56px 22px 40px; }
+    h1 { font-family: var(--serif); font-size: clamp(2.2rem, 6vw, 3rem); line-height: 1.1; margin: 0 0 10px; }
+    .role { font-size: 1.1rem; color: var(--muted); margin: 0 0 36px; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 28px clamp(20px, 4vw, 34px); }
+    h2 { font-family: var(--serif); font-size: 1.5rem; margin: 0 0 14px; }
+    h3 { font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 28px 0 10px; }
+    ul { padding-left: 1.1rem; margin: 10px 0 16px; }
+    li { margin-bottom: 8px; }
+    li strong { color: var(--purple-text); }
+    .tags { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 0; }
+    .tags li { margin: 0; padding: 4px 12px; border: 1px solid var(--line); border-radius: 999px; font-size: 0.85rem; background: var(--paper); }
+    .door {
+      display: flex; justify-content: space-between; align-items: center; gap: 16px;
+      margin-top: 28px; padding: 18px 22px; border: 1.5px solid var(--ink); border-radius: 12px;
+      text-decoration: none; background: var(--card); transition: background .15s, color .15s;
+    }
+    .door:hover { background: var(--ink); color: #fff; }
+    .door b { display: block; font-size: 1.1rem; }
+    .door span { font-size: 0.9rem; opacity: .8; }
+    .door .arrow { font-size: 1.5rem; opacity: 1; }
+    footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding: 26px 0 0; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Victor Reyes</h1>
+      <p class="role">PhD researcher in Computer Science at the University of Geneva</p>
+    </header>
+
+    <main class="card">
+      <h2>Research</h2>
+      <p>I am a PhD researcher in Computer Science at the University of Geneva, working in the <a href="https://www.unige.ch/">Viper Group</a>.</p>
+      <p>My research focuses on the geometric and probabilistic foundations of high-dimensional data analysis. I am particularly interested in understanding how dimensionality, distance distributions, and neighborhood structures shape the behavior of data analysis methods.</p>
+      <p>My work explores the connections between:</p>
+      <ul>
+        <li><strong>Proximity and Data Geometry:</strong> Mathematical foundations of proximity, distance-based relationships, and neighborhood structures in data.</li>
+        <li><strong>Intrinsic Dimensionality:</strong> Understanding the effective dimensionality of data and its implications for geometric and statistical methods.</li>
+        <li><strong>Hubness:</strong> Investigating the emergence of hubs in high-dimensional spaces, their geometric and probabilistic properties, and their impact on nearest-neighbor methods.</li>
+        <li><strong>Dimensionality Reduction:</strong> Studying dimensionality reduction methods, their geometric properties, and how they preserve or alter neighborhood relationships.</li>
+        <li><strong>Probability and Nearest Neighbors:</strong> Developing probabilistic models of nearest-neighbor distributions, dependencies, and neighborhood assumptions.</li>
+      </ul>
+      <p>My broader goal is to develop mathematical tools and theoretical frameworks that provide a deeper understanding of the geometry of data, connecting theoretical insights with practical algorithms, computational experiments, and interactive visualizations.</p>
+
+      <h3>Research Themes</h3>
+      <ul class="tags">
+        <li>Proximity</li><li>Hubness</li><li>Intrinsic Dimensionality</li><li>Dimensionality Reduction</li>
+        <li>Nearest Neighbors</li><li>Data Geometry</li><li>Probability</li><li>Machine Learning</li>
+      </ul>
+
+      <a class="door" href="https://victorreyesgit.github.io/Research/">
+        <div><b>Visualizing Proximity</b><span>Interactive visualisations of neighbourhoods in data</span></div>
+        <span class="arrow" aria-hidden="true">→</span>
+      </a>
+    </main>
+
+    <footer>© Victor Reyes</footer>
+  </div>
+</body>
+</html>
